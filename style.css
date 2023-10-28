@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none; /* This removes the bullet points */
+}
+footer {
+    padding-top: 200px;
+}
+a {
+    text-decoration: none; /* Remove underlines */
+    color: inherit;
+}
+.topinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    padding: 7px;
+}
+.search-button {
+    padding: 5px;
+}
+.site-tittle {    
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;    
+    }
+.site-desc {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-size: 15px;   
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+.recipes {
+    flex-direction: row;
+    display: flex;
+    padding: 20px;        
+    background-color: rgb(209, 214, 214);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 70%;
+    height: auto;    
+    margin: auto;
+    
+}
+.recipe-item {
+    flex: 1;
+    background-color: rgb(182, 206, 198);
+}
+.recipe-item p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+.recipe-img {
+    width: 100%;
+    max-width: max-content;
+}
